@@ -1,0 +1,94 @@
+.custom-dialog-overlay {
+  position: fixed;
+  top: 5%;
+  left: 40%;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20%;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.dialog-input {
+  padding: 20px;
+  margin-bottom: 5%;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.custom-dialog {
+  background-color: rgb(228, 221, 221);
+  padding: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.custom-dialog-actions {
+  display: flex;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.custom-dialog h2 {
+  margin-top: 0;
+}
+
+.check-emailspam-btn {
+  width: 100%;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.dialog-input {
+  padding: 10px;
+  width: 90%;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.card-email {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #e05809;
+  height: 70vh;
+  margin: 20px;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.card-email img {
+  width: 300px;
+  margin: 5%;
+  margin-left: 7%;
+  height: auto;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.card-content-email {
+  padding: 20px;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+.card-title-email {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: all 0.3s ease; /* Added transition for smoother effect */
+}
+
+
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: #7e4a2c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Added transition for smoother effect */
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Added slight scale effect on hover */
+}

@@ -1,0 +1,38 @@
+.detail-page {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .section-text ul {
+    padding-left: 20px;
+  }
+  
+  .section-text li {
+    margin-bottom: 10px;
+  }
+  
+  .section-image {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

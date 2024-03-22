@@ -1,0 +1,55 @@
+/*body {
+  background: linear-gradient(to right bottom, #b1c7dd, #000428); /* Navy blue to dark blue gradient */
+   /* Text color 
+}
+*/
+.custom-card {
+  width: 30%;
+  margin: 10px;
+  height: 70vh;
+  background-color: #e05809;;
+  margin-left: 2%;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+
+  box-shadow: 0 4px 8px rgba(0, 21, 64, 0.4); /* Adjusted box shadow color */
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.custom-button {
+  width: 80%;
+  height: 50px;
+  background: linear-gradient(to right bottom, #8f650b, #001f3f); /* Navy blue to dark blue gradient */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding:15px;
+  cursor: pointer;
+  margin-left: 30%;
+
+}
+
+.custom-button:hover {
+  background: linear-gradient(to right bottom, #0056b3, #001320); /* Adjust gradient colors for hover effect */
+}
+.CardTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space evenly between items */
+  height: 100%; /* Ensure container takes full height of the parent */
+}
+
+.CardTextItem {
+  flex: 1; /* Allow items to grow and fill available space */
+}
